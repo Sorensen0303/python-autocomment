@@ -22,3 +22,39 @@ REQUIRES PYTHON 3 (for Python 2 support, goto branch "[Legacy-python2]()")
 
 
 ###### Released under MPL-2.0
+### Sample Output
+$python3 comment_code.py hello.c 
+
+
+include <stdio.h>
+
+Describe this line of code: include statements
+
+
+
+
+Describe this line of code: 
+
+
+int main(void) {
+
+Describe this line of code: main function
+
+
+	printf("Hello World!\n");
+
+Describe this line of code: print statement
+
+
+}
+
+Describe this line of code: 
+
+Your outputfile is named: hello.c
+
+The source file is now renamed to: hello.c.src
+
+$
+
+
+
