@@ -26,7 +26,7 @@ REQUIRES PYTHON 3 (for Python 2 support, goto branch "[Legacy-python2]()")
 $python3 comment_code.py hello.c 
 
 
-include <stdio.h>
+#include <stdio.h>
 
 Describe this line of code: include statements
 
