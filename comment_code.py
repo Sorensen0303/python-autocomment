@@ -3,10 +3,15 @@
 Author: Derek Laker
 Special Thanks To: Shane Sorensen
 Description: Quick commenting script for the lazy. Sample output in the readme.md
+Version: python 3
 """
 
 import os
-file_name = input("What is the filename: ")
+import sys
+if (len(sys.argv) > 1):
+	file_name = sys.argv[1]
+else:
+	print("ERROR\nusage: python3 comment_code.py <filename>")
 chars = words = lines = max_c = 0
 with open(file_name, 'r') as in_file:
 	for line in in_file:
