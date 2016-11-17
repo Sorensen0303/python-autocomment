@@ -23,7 +23,8 @@ REQUIRES PYTHON 3 (for Python 2 support, goto branch "[Legacy-python2]()")
 
 ###### Released under MPL-2.0
 ### Sample Output
-```$python3 comment_code.py hello.c 
+```python
+$python3 comment_code.py hello.c 
 
 
 #include <stdio.h>
