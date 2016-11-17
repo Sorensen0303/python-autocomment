@@ -32,9 +32,9 @@ class main():
 			with open(new_file, 'w') as dest:
 				for line in src:
 					chars = len(line)
-					print ("\n")
-					print (line)
-					u_input = input("Describe this line of code: " )	
+					print("\n")
+					print(line)
+					u_input = input("Describe the above line of code: " )	
 					if (len(u_input) < 1):
 						dest.write('%s\n' % (line.rstrip('\n')))
 					else:
